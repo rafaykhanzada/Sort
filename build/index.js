@@ -17,4 +17,4 @@ linkedlist.add(-3);
 linkedlist.add(4);
 const sorter = new Sorter_1.Sorter(linkedlist);
 sorter.sort();
-// linkedlist.print()
+linkedlist.print();

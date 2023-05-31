@@ -74,7 +74,7 @@ class LinkedList {
         if (!this.head) {
             return 0;
         }
-        let length = 0;
+        let length = 1;
         let node = this.head;
         while (node.next) {
             length++;

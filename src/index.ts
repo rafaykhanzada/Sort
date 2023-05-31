@@ -23,4 +23,4 @@ import { LinkedList } from './LinkedList';
 const sorter = new Sorter(linkedlist);
 sorter.sort();
 
-// linkedlist.print()
+linkedlist.print()
