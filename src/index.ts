@@ -3,15 +3,13 @@ import { NumberCollection } from './NumberCollection';
 import { CharacterCollection } from './CharacterCollection';
 import { LinkedList } from './LinkedList';
 
-// const numbersCollection = new NumberCollection([10,3,-5,0]);
-// const sorter = new Sorter(numbersCollection);
-// sorter.sort();
-// console.log(numbersCollection.data);
+const numbersCollection = new NumberCollection([10,3,-5,0]);
+numbersCollection.sort();
+console.log(numbersCollection.data);
 
-// const charactersCollection = new CharacterCollection('Xaayb');
-// const sorter = new Sorter(charactersCollection);
-// sorter.sort();
-// console.log(charactersCollection.data);
+const charactersCollection = new CharacterCollection('Xaayb');
+charactersCollection.sort();
+console.log(charactersCollection.data);
 
  const linkedlist = new LinkedList();
  linkedlist.add(500)
@@ -20,7 +18,7 @@ import { LinkedList } from './LinkedList';
  linkedlist.add(4)
  
 
-const sorter = new Sorter(linkedlist);
-sorter.sort();
+// const sorter = new Sorter(linkedlist);
+// sorter.sort();
 
 linkedlist.print()
